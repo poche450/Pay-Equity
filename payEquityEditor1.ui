@@ -1,0 +1,3112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1600</width>
+    <height>975</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1600</width>
+    <height>975</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1600</width>
+    <height>975</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>Noto Sans Mono CJK KR</family>
+    <pointsize>9</pointsize>
+    <weight>50</weight>
+    <bold>false</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Pay Equity Programe Creator</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>3442056-head-hunting/png/041-legal.png</normaloff>3442056-head-hunting/png/041-legal.png</iconset>
+  </property>
+  <property name="windowOpacity">
+   <double>1.000000000000000</double>
+  </property>
+  <property name="tabShape">
+   <enum>QTabWidget::Triangular</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="minimumSize">
+    <size>
+     <width>1600</width>
+     <height>975</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>1600</width>
+     <height>975</height>
+    </size>
+   </property>
+   <property name="cursor">
+    <cursorShape>ArrowCursor</cursorShape>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="1">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <property name="tabPosition">
+       <enum>QTabWidget::South</enum>
+      </property>
+      <property name="tabShape">
+       <enum>QTabWidget::Rounded</enum>
+      </property>
+      <property name="currentIndex">
+       <number>2</number>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>48</width>
+        <height>32</height>
+       </size>
+      </property>
+      <property name="elideMode">
+       <enum>Qt::ElideNone</enum>
+      </property>
+      <property name="tabsClosable">
+       <bool>false</bool>
+      </property>
+      <widget class="QWidget" name="tab_21">
+       <attribute name="icon">
+        <iconset>
+         <normaloff>3442056-head-hunting/png/041-legal.png</normaloff>3442056-head-hunting/png/041-legal.png</iconset>
+       </attribute>
+       <attribute name="title">
+        <string>Pay Equity Program</string>
+       </attribute>
+       <widget class="QGroupBox" name="groupBox_27">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>160</y>
+          <width>471</width>
+          <height>671</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Job Title</string>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QTableWidget" name="tableWidget">
+           <property name="alternatingRowColors">
+            <bool>false</bool>
+           </property>
+           <property name="showGrid">
+            <bool>true</bool>
+           </property>
+           <property name="gridStyle">
+            <enum>Qt::DotLine</enum>
+           </property>
+           <property name="rowCount">
+            <number>10</number>
+           </property>
+           <property name="columnCount">
+            <number>5</number>
+           </property>
+           <attribute name="verticalHeaderDefaultSectionSize">
+            <number>30</number>
+           </attribute>
+           <row/>
+           <row/>
+           <row/>
+           <row/>
+           <row/>
+           <row/>
+           <row/>
+           <row/>
+           <row/>
+           <row/>
+           <column>
+            <property name="text">
+             <string>111</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Nouvelle colonne</string>
+            </property>
+           </column>
+           <column/>
+           <column/>
+           <column/>
+          </widget>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <item>
+            <widget class="QPushButton" name="pushButton_7">
+             <property name="text">
+              <string>Add A New Job </string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton">
+             <property name="text">
+              <string>PushButton</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_9">
+             <property name="text">
+              <string>Save job Selection</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_8">
+             <property name="layoutDirection">
+              <enum>Qt::LeftToRight</enum>
+             </property>
+             <property name="text">
+              <string>Delete Selected Job</string>
+             </property>
+             <property name="default">
+              <bool>false</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_28">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>10</y>
+          <width>1141</width>
+          <height>136</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Pay Equity Program Information</string>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_13">
+         <item row="0" column="0">
+          <layout class="QGridLayout" name="gridLayout_11">
+           <item row="0" column="3">
+            <widget class="QLineEdit" name="lineEdit_3"/>
+           </item>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_48">
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_78">
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="3">
+            <widget class="QLineEdit" name="lineEdit_15"/>
+           </item>
+           <item row="0" column="2">
+            <widget class="QLabel" name="label_79">
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="lineEdit_14"/>
+           </item>
+           <item row="1" column="1">
+            <widget class="QLineEdit" name="lineEdit_4"/>
+           </item>
+           <item row="1" column="2">
+            <widget class="QLabel" name="label_80">
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="label_81">
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QComboBox" name="comboBox"/>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_29">
+        <property name="geometry">
+         <rect>
+          <x>510</x>
+          <y>160</y>
+          <width>651</width>
+          <height>228</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Total Compensation</string>
+        </property>
+        <property name="flat">
+         <bool>false</bool>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_6">
+         <item>
+          <widget class="QTableView" name="tableView_4"/>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_30">
+        <property name="geometry">
+         <rect>
+          <x>510</x>
+          <y>399</y>
+          <width>651</width>
+          <height>305</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Pay Equity Results</string>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_14">
+         <item row="0" column="0">
+          <layout class="QGridLayout" name="gridLayout_10">
+           <item row="0" column="2">
+            <widget class="QLabel" name="label_46">
+             <property name="text">
+              <string>Individual Method With Grades</string>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QSpinBox" name="spinBox_4">
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+             <property name="buttonSymbols">
+              <enum>QAbstractSpinBox::NoButtons</enum>
+             </property>
+             <property name="suffix">
+              <string/>
+             </property>
+             <property name="prefix">
+              <string>$</string>
+             </property>
+             <property name="maximum">
+              <number>999999999</number>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="2">
+            <widget class="QSpinBox" name="spinBox_5">
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+             <property name="buttonSymbols">
+              <enum>QAbstractSpinBox::NoButtons</enum>
+             </property>
+             <property name="suffix">
+              <string/>
+             </property>
+             <property name="prefix">
+              <string>$</string>
+             </property>
+             <property name="maximum">
+              <number>999999999</number>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_45">
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Individual Method With Points&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="4">
+            <widget class="QLabel" name="label_47">
+             <property name="text">
+              <string>Global Method With Pairs</string>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="4">
+            <widget class="QSpinBox" name="spinBox_6">
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+             <property name="buttonSymbols">
+              <enum>QAbstractSpinBox::NoButtons</enum>
+             </property>
+             <property name="suffix">
+              <string/>
+             </property>
+             <property name="prefix">
+              <string>$</string>
+             </property>
+             <property name="maximum">
+              <number>999999999</number>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="1" column="0">
+          <widget class="QTableView" name="tableView_3"/>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_31">
+        <property name="geometry">
+         <rect>
+          <x>510</x>
+          <y>720</y>
+          <width>661</width>
+          <height>108</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_9">
+         <item row="0" column="0">
+          <widget class="QPushButton" name="pushButton_5">
+           <property name="text">
+            <string>Save Pay Equity Program</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0" rowspan="2">
+          <widget class="QPushButton" name="pushButton_6">
+           <property name="text">
+            <string>Export Pay Equity program as PDF</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="2">
+          <widget class="QPushButton" name="pushButton_3">
+           <property name="text">
+            <string>Load Existing Program</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="2" rowspan="2">
+          <widget class="QPushButton" name="pushButton_4">
+           <property name="text">
+            <string>Create New Program</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab">
+       <attribute name="icon">
+        <iconset>
+         <normaloff>3442056-head-hunting/png/003-salary.png</normaloff>3442056-head-hunting/png/003-salary.png</iconset>
+       </attribute>
+       <attribute name="title">
+        <string>Pay Scale Group</string>
+       </attribute>
+       <widget class="QGroupBox" name="groupBox">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>10</y>
+          <width>512</width>
+          <height>792</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Pay Scale Group</string>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_3">
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_40">
+           <property name="text">
+            <string>Pay Scale Name</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLineEdit" name="entryPayScaleName"/>
+         </item>
+         <item row="0" column="2">
+          <widget class="QPushButton" name="pushButtonFetchPayScale">
+           <property name="text">
+            <string>Fetch Pay Scale</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="3">
+          <widget class="QPushButton" name="pushButtonSavePayScale">
+           <property name="text">
+            <string>Save Pay Scale</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_41">
+           <property name="text">
+            <string>Pay Scale ID</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLineEdit" name="entryPayScaleID"/>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_39">
+           <property name="text">
+            <string>Effective Date From</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QDateEdit" name="entryDateFrom"/>
+         </item>
+         <item row="2" column="2">
+          <widget class="QLabel" name="label_42">
+           <property name="text">
+            <string>To</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="3">
+          <widget class="QDateEdit" name="entryDateTo"/>
+         </item>
+         <item row="3" column="1">
+          <widget class="QLabel" name="label_36">
+           <property name="text">
+            <string>Minimum Wage</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="2">
+          <widget class="QLabel" name="label_37">
+           <property name="text">
+            <string>Standard Wage</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="3">
+          <widget class="QLabel" name="label_38">
+           <property name="text">
+            <string>Maximum Wage</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QLabel" name="label_9">
+           <property name="text">
+            <string>Grade 1</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox">
+           <property name="prefix">
+            <string>$</string>
+           </property>
+           <property name="suffix">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="3">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_3"/>
+         </item>
+         <item row="5" column="0">
+          <widget class="QLabel" name="label_10">
+           <property name="text">
+            <string>Grade 2</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="1">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_4">
+           <property name="prefix">
+            <string>$</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="3">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_6"/>
+         </item>
+         <item row="6" column="0">
+          <widget class="QLabel" name="label_18">
+           <property name="text">
+            <string>Grade 3</string>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="1">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_7">
+           <property name="prefix">
+            <string>$</string>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="3">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_9"/>
+         </item>
+         <item row="7" column="0">
+          <widget class="QLabel" name="label_19">
+           <property name="text">
+            <string>Grade 4</string>
+           </property>
+          </widget>
+         </item>
+         <item row="7" column="1">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_11">
+           <property name="prefix">
+            <string>$</string>
+           </property>
+          </widget>
+         </item>
+         <item row="7" column="3">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_12"/>
+         </item>
+         <item row="8" column="0">
+          <widget class="QLabel" name="label_20">
+           <property name="text">
+            <string>Grade 5</string>
+           </property>
+          </widget>
+         </item>
+         <item row="8" column="1">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_13">
+           <property name="prefix">
+            <string>$</string>
+           </property>
+          </widget>
+         </item>
+         <item row="8" column="3">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_15"/>
+         </item>
+         <item row="9" column="0">
+          <widget class="QLabel" name="label_21">
+           <property name="text">
+            <string>Grade 6</string>
+           </property>
+          </widget>
+         </item>
+         <item row="9" column="1">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_2">
+           <property name="prefix">
+            <string>$</string>
+           </property>
+          </widget>
+         </item>
+         <item row="9" column="3">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_35"/>
+         </item>
+         <item row="10" column="0">
+          <widget class="QLabel" name="label_22">
+           <property name="text">
+            <string>Grade 7</string>
+           </property>
+          </widget>
+         </item>
+         <item row="10" column="1">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_5">
+           <property name="prefix">
+            <string>$</string>
+           </property>
+          </widget>
+         </item>
+         <item row="10" column="3">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_36"/>
+         </item>
+         <item row="11" column="0">
+          <widget class="QLabel" name="label_23">
+           <property name="text">
+            <string>Grade 8</string>
+           </property>
+          </widget>
+         </item>
+         <item row="11" column="1">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_8">
+           <property name="prefix">
+            <string>$</string>
+           </property>
+          </widget>
+         </item>
+         <item row="11" column="3">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_37"/>
+         </item>
+         <item row="12" column="0">
+          <widget class="QLabel" name="label_24">
+           <property name="text">
+            <string>Grade 9</string>
+           </property>
+          </widget>
+         </item>
+         <item row="12" column="1">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_10">
+           <property name="prefix">
+            <string>$</string>
+           </property>
+          </widget>
+         </item>
+         <item row="12" column="3">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_38"/>
+         </item>
+         <item row="13" column="0">
+          <widget class="QLabel" name="label_25">
+           <property name="text">
+            <string>Grade 10</string>
+           </property>
+          </widget>
+         </item>
+         <item row="13" column="1">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_14">
+           <property name="prefix">
+            <string>$</string>
+           </property>
+          </widget>
+         </item>
+         <item row="13" column="3">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_39"/>
+         </item>
+         <item row="14" column="0">
+          <widget class="QLabel" name="label_26">
+           <property name="text">
+            <string>Grade 11</string>
+           </property>
+          </widget>
+         </item>
+         <item row="14" column="1">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_16">
+           <property name="prefix">
+            <string>$</string>
+           </property>
+          </widget>
+         </item>
+         <item row="14" column="3">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_40"/>
+         </item>
+         <item row="15" column="0">
+          <widget class="QLabel" name="label_27">
+           <property name="text">
+            <string>Grade 12</string>
+           </property>
+          </widget>
+         </item>
+         <item row="15" column="1">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_17">
+           <property name="prefix">
+            <string>$</string>
+           </property>
+          </widget>
+         </item>
+         <item row="15" column="2">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_26">
+           <property name="prefix">
+            <string>$</string>
+           </property>
+          </widget>
+         </item>
+         <item row="15" column="3">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_41"/>
+         </item>
+         <item row="16" column="0">
+          <widget class="QLabel" name="label_28">
+           <property name="text">
+            <string>Grade 13</string>
+           </property>
+          </widget>
+         </item>
+         <item row="16" column="1">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_18">
+           <property name="prefix">
+            <string>$</string>
+           </property>
+          </widget>
+         </item>
+         <item row="16" column="2">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_27">
+           <property name="prefix">
+            <string>$</string>
+           </property>
+          </widget>
+         </item>
+         <item row="16" column="3">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_42"/>
+         </item>
+         <item row="17" column="0">
+          <widget class="QLabel" name="label_29">
+           <property name="text">
+            <string>Grade 14</string>
+           </property>
+          </widget>
+         </item>
+         <item row="17" column="1">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_19">
+           <property name="prefix">
+            <string>$</string>
+           </property>
+          </widget>
+         </item>
+         <item row="17" column="2">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_28">
+           <property name="prefix">
+            <string>$</string>
+           </property>
+          </widget>
+         </item>
+         <item row="17" column="3">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_43"/>
+         </item>
+         <item row="18" column="0">
+          <widget class="QLabel" name="label_30">
+           <property name="text">
+            <string>Grade 15</string>
+           </property>
+          </widget>
+         </item>
+         <item row="18" column="1">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_20">
+           <property name="prefix">
+            <string>$</string>
+           </property>
+          </widget>
+         </item>
+         <item row="18" column="2">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_29">
+           <property name="prefix">
+            <string>$</string>
+           </property>
+          </widget>
+         </item>
+         <item row="18" column="3">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_44"/>
+         </item>
+         <item row="19" column="0">
+          <widget class="QLabel" name="label_31">
+           <property name="text">
+            <string>Grade 16</string>
+           </property>
+          </widget>
+         </item>
+         <item row="19" column="1">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_21">
+           <property name="prefix">
+            <string>$</string>
+           </property>
+          </widget>
+         </item>
+         <item row="19" column="2">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_30">
+           <property name="prefix">
+            <string>$</string>
+           </property>
+          </widget>
+         </item>
+         <item row="19" column="3">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_45"/>
+         </item>
+         <item row="20" column="0">
+          <widget class="QLabel" name="label_32">
+           <property name="text">
+            <string>Grade 17</string>
+           </property>
+          </widget>
+         </item>
+         <item row="20" column="1">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_22">
+           <property name="prefix">
+            <string>$</string>
+           </property>
+          </widget>
+         </item>
+         <item row="20" column="2">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_31">
+           <property name="prefix">
+            <string>$</string>
+           </property>
+          </widget>
+         </item>
+         <item row="20" column="3">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_46"/>
+         </item>
+         <item row="21" column="0">
+          <widget class="QLabel" name="label_33">
+           <property name="text">
+            <string>Grade 18</string>
+           </property>
+          </widget>
+         </item>
+         <item row="21" column="1">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_23">
+           <property name="prefix">
+            <string>$</string>
+           </property>
+          </widget>
+         </item>
+         <item row="21" column="2">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_32">
+           <property name="prefix">
+            <string>$</string>
+           </property>
+          </widget>
+         </item>
+         <item row="21" column="3">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_47"/>
+         </item>
+         <item row="22" column="0">
+          <widget class="QLabel" name="label_34">
+           <property name="text">
+            <string>Grade 19</string>
+           </property>
+          </widget>
+         </item>
+         <item row="22" column="1">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_24">
+           <property name="prefix">
+            <string>$</string>
+           </property>
+          </widget>
+         </item>
+         <item row="22" column="2">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_33">
+           <property name="prefix">
+            <string>$</string>
+           </property>
+          </widget>
+         </item>
+         <item row="22" column="3">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_48"/>
+         </item>
+         <item row="23" column="0">
+          <widget class="QLabel" name="label_35">
+           <property name="text">
+            <string>Grade 20</string>
+           </property>
+          </widget>
+         </item>
+         <item row="23" column="1">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_25">
+           <property name="prefix">
+            <string>$</string>
+           </property>
+          </widget>
+         </item>
+         <item row="23" column="2">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_34">
+           <property name="prefix">
+            <string>$</string>
+           </property>
+          </widget>
+         </item>
+         <item row="23" column="3">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_49"/>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_2">
+        <property name="geometry">
+         <rect>
+          <x>660</x>
+          <y>13</y>
+          <width>426</width>
+          <height>391</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Minimum Wage by Province</string>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_8">
+         <item row="1" column="1">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_52"/>
+         </item>
+         <item row="1" column="3">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_51"/>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="label_70">
+           <property name="text">
+            <string>Alberta</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="0">
+          <widget class="QLabel" name="label_72">
+           <property name="text">
+            <string>Manitoba</string>
+           </property>
+          </widget>
+         </item>
+         <item row="9" column="0">
+          <widget class="QLabel" name="label_76">
+           <property name="text">
+            <string>P-E-I</string>
+           </property>
+          </widget>
+         </item>
+         <item row="7" column="0">
+          <widget class="QLabel" name="label_74">
+           <property name="text">
+            <string>New-Brunswick</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="3">
+          <widget class="QLabel" name="label_67">
+           <property name="text">
+            <string>2021 Estimate</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_65">
+           <property name="text">
+            <string>Quebec</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="2">
+          <widget class="QLabel" name="label_66">
+           <property name="text">
+            <string>2020</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLineEdit" name="lineEdit_11"/>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_68">
+           <property name="text">
+            <string>Year</string>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="0">
+          <widget class="QLabel" name="label_73">
+           <property name="text">
+            <string>British-Columbia</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="2">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_50"/>
+         </item>
+         <item row="4" column="0">
+          <widget class="QLabel" name="label_71">
+           <property name="text">
+            <string>Saskatchewan</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_69">
+           <property name="text">
+            <string>Ontario</string>
+           </property>
+          </widget>
+         </item>
+         <item row="8" column="0">
+          <widget class="QLabel" name="label_75">
+           <property name="text">
+            <string>Nova-Scotia</string>
+           </property>
+          </widget>
+         </item>
+         <item row="10" column="0">
+          <widget class="QLabel" name="label_77">
+           <property name="text">
+            <string>Newfoundland</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_53"/>
+         </item>
+         <item row="2" column="2">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_54"/>
+         </item>
+         <item row="2" column="3">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_55"/>
+         </item>
+         <item row="3" column="1">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_56"/>
+         </item>
+         <item row="3" column="2">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_57"/>
+         </item>
+         <item row="3" column="3">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_58"/>
+         </item>
+         <item row="4" column="1">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_59"/>
+         </item>
+         <item row="4" column="2">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_60"/>
+         </item>
+         <item row="4" column="3">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_61"/>
+         </item>
+         <item row="5" column="1">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_62"/>
+         </item>
+         <item row="5" column="2">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_63"/>
+         </item>
+         <item row="5" column="3">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_64"/>
+         </item>
+         <item row="6" column="1">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_65"/>
+         </item>
+         <item row="6" column="2">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_66"/>
+         </item>
+         <item row="6" column="3">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_67"/>
+         </item>
+         <item row="7" column="1">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_68"/>
+         </item>
+         <item row="7" column="2">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_69"/>
+         </item>
+         <item row="7" column="3">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_70"/>
+         </item>
+         <item row="8" column="1">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_71"/>
+         </item>
+         <item row="8" column="2">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_72"/>
+         </item>
+         <item row="8" column="3">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_73"/>
+         </item>
+         <item row="9" column="1">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_74"/>
+         </item>
+         <item row="9" column="2">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_75"/>
+         </item>
+         <item row="9" column="3">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_76"/>
+         </item>
+         <item row="10" column="1">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_77"/>
+         </item>
+         <item row="10" column="2">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_78"/>
+         </item>
+         <item row="10" column="3">
+          <widget class="QDoubleSpinBox" name="doubleSpinBox_79"/>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_26">
+        <property name="geometry">
+         <rect>
+          <x>660</x>
+          <y>430</y>
+          <width>431</width>
+          <height>371</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Pay Scale Designer</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="icon">
+        <iconset>
+         <normaloff>3442056-head-hunting/png/013-skills.png</normaloff>3442056-head-hunting/png/013-skills.png</iconset>
+       </attribute>
+       <attribute name="title">
+        <string>Job Description</string>
+       </attribute>
+       <widget class="QWidget" name="gridLayoutWidget_4">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>1561</width>
+          <height>861</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="jobDescriptionMain">
+         <item row="0" column="1" rowspan="2">
+          <layout class="QGridLayout" name="gridLayout_20"/>
+         </item>
+         <item row="1" column="0">
+          <widget class="QTableView" name="tableView_2"/>
+         </item>
+         <item row="0" column="0">
+          <layout class="QGridLayout" name="gridLayout_19">
+           <item row="2" column="1">
+            <widget class="QPushButton" name="pushButton_10">
+             <property name="text">
+              <string>PushButton</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QPushButton" name="pushButton_2">
+             <property name="text">
+              <string>PushButton</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0" colspan="2">
+            <widget class="QLabel" name="label_86">
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_87">
+             <property name="text">
+              <string>TextLabel</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QComboBox" name="comboBox_2"/>
+           </item>
+          </layout>
+         </item>
+         <item row="1" column="2" rowspan="2">
+          <layout class="QVBoxLayout" name="verticalLayout_5">
+           <item>
+            <widget class="QGroupBox" name="groupBox_32">
+             <property name="title">
+              <string>Responsabilities</string>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_6">
+              <item row="1" column="0">
+               <widget class="QLabel" name="label_63">
+                <property name="text">
+                 <string>Please insert a short description of the responsabilities </string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="2">
+               <widget class="QPushButton" name="pushButton_13">
+                <property name="text">
+                 <string>PushButton</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="0" colspan="3">
+               <widget class="QTextEdit" name="entryJobDescriptionResponsabilities"/>
+              </item>
+              <item row="0" column="2">
+               <widget class="QLineEdit" name="lineEdit_5"/>
+              </item>
+              <item row="1" column="1">
+               <spacer name="horizontalSpacer_3">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="0" column="1">
+               <widget class="QLabel" name="label_88">
+                <property name="text">
+                 <string>Responsabilities ID</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="groupBox_4">
+             <property name="title">
+              <string>Qualifications</string>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_5">
+              <item row="0" column="2">
+               <widget class="QLineEdit" name="lineEdit_6"/>
+              </item>
+              <item row="1" column="2">
+               <widget class="QPushButton" name="pushButton_11">
+                <property name="text">
+                 <string>PushButton</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QLabel" name="label_62">
+                <property name="text">
+                 <string>Please insert a short description of the required qualification</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="1">
+               <widget class="QLabel" name="label_89">
+                <property name="text">
+                 <string>TextLabel</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <spacer name="horizontalSpacer_4">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="2" column="0" colspan="3">
+               <widget class="QTextEdit" name="entryJobDescriptionQualifications"/>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="groupBox_33">
+             <property name="title">
+              <string>Working Conditions</string>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_7">
+              <item row="1" column="2">
+               <widget class="QLineEdit" name="lineEdit_7"/>
+              </item>
+              <item row="2" column="2">
+               <widget class="QPushButton" name="pushButton_12">
+                <property name="text">
+                 <string>PushButton</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QLabel" name="label_90">
+                <property name="text">
+                 <string>TextLabel</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="0" colspan="3">
+               <widget class="QTextEdit" name="entryJobDescriptionWorkingConditions"/>
+              </item>
+              <item row="2" column="1">
+               <spacer name="horizontalSpacer_5">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item row="2" column="0">
+               <widget class="QLabel" name="label_64">
+                <property name="text">
+                 <string>Please insert a short description of the working conditions</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="0" column="2">
+          <layout class="QGridLayout" name="gridLayout_18" rowstretch="0">
+           <property name="sizeConstraint">
+            <enum>QLayout::SetDefaultConstraint</enum>
+           </property>
+           <item row="0" column="0">
+            <widget class="QGroupBox" name="groupBox_3">
+             <property name="title">
+              <string>Job Information</string>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_4">
+              <item row="3" column="7">
+               <widget class="QLineEdit" name="entryJobLevelCode"/>
+              </item>
+              <item row="2" column="7">
+               <widget class="QLineEdit" name="entryJobLevel"/>
+              </item>
+              <item row="0" column="7">
+               <widget class="QLineEdit" name="entryJobID"/>
+              </item>
+              <item row="4" column="7">
+               <widget class="QCheckBox" name="isUnionisable">
+                <property name="text">
+                 <string>Job Is Unionisable</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="7">
+               <widget class="QLineEdit" name="entryPayScaleID_2"/>
+              </item>
+              <item row="4" column="5">
+               <widget class="QPushButton" name="pushButtonCreateJobDescription">
+                <property name="text">
+                 <string>Create Job Description</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QLabel" name="label_61">
+                <property name="text">
+                 <string>Business Unit</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QLabel" name="label_57">
+                <property name="text">
+                 <string>First-level Manager</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="5">
+               <widget class="QLabel" name="label_43">
+                <property name="text">
+                 <string>Job Level</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="5">
+               <widget class="QLabel" name="label_44">
+                <property name="text">
+                 <string>Job Level Code</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="0">
+               <widget class="QLabel" name="label_13">
+                <property name="text">
+                 <string>Job Title</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="5">
+               <widget class="QLabel" name="label_60">
+                <property name="text">
+                 <string>Pay Scale ID</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="0">
+               <widget class="QLabel" name="label_59">
+                <property name="text">
+                 <string>Function Unit</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="5">
+               <widget class="QLabel" name="label_58">
+                <property name="text">
+                 <string>Job ID</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="4">
+               <widget class="QPushButton" name="pushButtonFetchJobDescription">
+                <property name="text">
+                 <string>Fetch Job Description</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="1" colspan="4">
+               <widget class="QLineEdit" name="entryJobTitle"/>
+              </item>
+              <item row="1" column="1" colspan="4">
+               <widget class="QLineEdit" name="entryFirstLevelManager"/>
+              </item>
+              <item row="2" column="1" colspan="4">
+               <widget class="QLineEdit" name="entryBusinessUnit"/>
+              </item>
+              <item row="3" column="1" colspan="4">
+               <widget class="QLineEdit" name="entryFunctionUnit"/>
+              </item>
+              <item row="4" column="3">
+               <spacer name="horizontalSpacer">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_3">
+       <attribute name="icon">
+        <iconset>
+         <normaloff>3442056-head-hunting/png/019-rating.png</normaloff>3442056-head-hunting/png/019-rating.png</iconset>
+       </attribute>
+       <attribute name="title">
+        <string>Job Evaluation</string>
+       </attribute>
+       <widget class="QGroupBox" name="currentJobEvaluation">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>291</width>
+          <height>821</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Current Jobs List</string>
+        </property>
+        <widget class="QWidget" name="horizontalLayoutWidget">
+         <property name="geometry">
+          <rect>
+           <x>9</x>
+           <y>29</y>
+           <width>271</width>
+           <height>761</height>
+          </rect>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <item>
+           <widget class="QTableWidget" name="tableWidget_2">
+            <property name="sizeAdjustPolicy">
+             <enum>QAbstractScrollArea::AdjustToContentsOnFirstShow</enum>
+            </property>
+            <property name="columnCount">
+             <number>3</number>
+            </property>
+            <attribute name="horizontalHeaderVisible">
+             <bool>false</bool>
+            </attribute>
+            <attribute name="horizontalHeaderCascadingSectionResizes">
+             <bool>true</bool>
+            </attribute>
+            <attribute name="horizontalHeaderDefaultSectionSize">
+             <number>85</number>
+            </attribute>
+            <attribute name="horizontalHeaderHighlightSections">
+             <bool>true</bool>
+            </attribute>
+            <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+             <bool>false</bool>
+            </attribute>
+            <attribute name="horizontalHeaderStretchLastSection">
+             <bool>true</bool>
+            </attribute>
+            <attribute name="verticalHeaderVisible">
+             <bool>false</bool>
+            </attribute>
+            <attribute name="verticalHeaderDefaultSectionSize">
+             <number>30</number>
+            </attribute>
+            <column>
+             <property name="text">
+              <string>Job title</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Job ID</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Evaluation ID</string>
+             </property>
+            </column>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="jobToEvaluate">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>10</y>
+          <width>191</width>
+          <height>101</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Job Group to Evaluate</string>
+        </property>
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="0" column="0">
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>Job ID : </string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLineEdit" name="lineEdit"/>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_6">
+           <property name="text">
+            <string>Job Evaluation ID</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLineEdit" name="lineEdit_2"/>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QGroupBox" name="newJobEvaluation">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>120</y>
+          <width>861</width>
+          <height>711</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>New Job Evaluation</string>
+        </property>
+        <widget class="QTabWidget" name="jobFactor">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>841</width>
+           <height>651</height>
+          </rect>
+         </property>
+         <property name="tabShape">
+          <enum>QTabWidget::Triangular</enum>
+         </property>
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <widget class="QWidget" name="factor1">
+          <attribute name="title">
+           <string>Skills and Qualifications</string>
+          </attribute>
+          <widget class="QTabWidget" name="tabWidget_3">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>0</y>
+             <width>811</width>
+             <height>601</height>
+            </rect>
+           </property>
+           <property name="tabShape">
+            <enum>QTabWidget::Triangular</enum>
+           </property>
+           <property name="currentIndex">
+            <number>1</number>
+           </property>
+           <widget class="QWidget" name="tab_8">
+            <attribute name="title">
+             <string>Knowledge and Education</string>
+            </attribute>
+            <widget class="QWidget" name="layoutWidget">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>10</y>
+               <width>721</width>
+               <height>541</height>
+              </rect>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_16">
+              <item row="0" column="0" colspan="4">
+               <widget class="QGroupBox" name="groupBox_5">
+                <property name="title">
+                 <string>Factor Description</string>
+                </property>
+                <widget class="QTextBrowser" name="textBrowser">
+                 <property name="geometry">
+                  <rect>
+                   <x>10</x>
+                   <y>30</y>
+                   <width>691</width>
+                   <height>201</height>
+                  </rect>
+                 </property>
+                </widget>
+               </widget>
+              </item>
+              <item row="2" column="1">
+               <widget class="QLCDNumber" name="lcdNumber_3">
+                <property name="font">
+                 <font>
+                  <family>Noto Sans Mono CJK KR</family>
+                  <pointsize>20</pointsize>
+                  <weight>50</weight>
+                  <italic>true</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QLabel" name="label_15">
+                <property name="font">
+                 <font>
+                  <family>Noto Sans Mono CJK KR</family>
+                  <pointsize>20</pointsize>
+                  <weight>50</weight>
+                  <italic>true</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Current Factor Level : </string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0" colspan="4">
+               <widget class="QGroupBox" name="groupBox_6">
+                <property name="title">
+                 <string>Level Description</string>
+                </property>
+                <widget class="QListView" name="listView">
+                 <property name="geometry">
+                  <rect>
+                   <x>10</x>
+                   <y>30</y>
+                   <width>691</width>
+                   <height>191</height>
+                  </rect>
+                 </property>
+                </widget>
+               </widget>
+              </item>
+              <item row="2" column="2">
+               <widget class="QLabel" name="label_5">
+                <property name="font">
+                 <font>
+                  <family>Noto Sans Mono CJK KR</family>
+                  <pointsize>20</pointsize>
+                  <weight>50</weight>
+                  <italic>true</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>New Factor Level : </string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="3">
+               <widget class="QSpinBox" name="spinBox_3">
+                <property name="font">
+                 <font>
+                  <family>Noto Sans Mono CJK KR</family>
+                  <pointsize>20</pointsize>
+                  <weight>50</weight>
+                  <italic>true</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </widget>
+           <widget class="QWidget" name="tab_9">
+            <attribute name="title">
+             <string>Skills and Qualifications</string>
+            </attribute>
+            <widget class="QWidget" name="formLayoutWidget">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>10</y>
+               <width>851</width>
+               <height>768</height>
+              </rect>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_17">
+              <item row="4" column="3">
+               <widget class="QSpinBox" name="spinBox_2">
+                <property name="font">
+                 <font>
+                  <family>Noto Sans Mono CJK KR</family>
+                  <pointsize>20</pointsize>
+                  <weight>50</weight>
+                  <italic>true</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="1">
+               <widget class="QLCDNumber" name="lcdNumber_4">
+                <property name="font">
+                 <font>
+                  <family>Noto Sans Mono CJK KR</family>
+                  <pointsize>20</pointsize>
+                  <weight>50</weight>
+                  <italic>true</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="0">
+               <widget class="QLabel" name="label_16">
+                <property name="font">
+                 <font>
+                  <family>Noto Sans Mono CJK KR</family>
+                  <pointsize>20</pointsize>
+                  <weight>50</weight>
+                  <italic>true</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Current Factor Level : </string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="2">
+               <widget class="QLabel" name="label_7">
+                <property name="font">
+                 <font>
+                  <family>Noto Sans Mono CJK KR</family>
+                  <pointsize>20</pointsize>
+                  <weight>50</weight>
+                  <italic>true</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>New Factor Level : </string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="0" colspan="4">
+               <widget class="QTextBrowser" name="textBrowser_4"/>
+              </item>
+              <item row="1" column="0" colspan="4">
+               <widget class="QTextBrowser" name="textBrowser_2"/>
+              </item>
+              <item row="0" column="2">
+               <widget class="QLabel" name="label_84">
+                <property name="text">
+                 <string>Factor Description ID</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="3">
+               <widget class="QLineEdit" name="lineEdit_16"/>
+              </item>
+              <item row="2" column="0" colspan="2">
+               <widget class="QLabel" name="label_83">
+                <property name="text">
+                 <string>Factor level</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="2">
+               <widget class="QLabel" name="label_85">
+                <property name="text">
+                 <string>Factor level ID</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="3">
+               <widget class="QLineEdit" name="lineEdit_17"/>
+              </item>
+              <item row="0" column="0" colspan="2">
+               <widget class="QLabel" name="label_82">
+                <property name="text">
+                 <string>Factor Description</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </widget>
+           <widget class="QWidget" name="tab_17">
+            <attribute name="title">
+             <string>Experience</string>
+            </attribute>
+            <widget class="QGroupBox" name="groupBox_9">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>10</y>
+               <width>671</width>
+               <height>151</height>
+              </rect>
+             </property>
+             <property name="title">
+              <string>Factor Description</string>
+             </property>
+             <widget class="QTextBrowser" name="textBrowser_3">
+              <property name="geometry">
+               <rect>
+                <x>5</x>
+                <y>30</y>
+                <width>651</width>
+                <height>111</height>
+               </rect>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QGroupBox" name="groupBox_10">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>190</y>
+               <width>681</width>
+               <height>231</height>
+              </rect>
+             </property>
+             <property name="title">
+              <string>Level Description</string>
+             </property>
+             <widget class="QListView" name="listView_3">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>20</y>
+                <width>651</width>
+                <height>192</height>
+               </rect>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QLabel" name="label_17">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>450</y>
+               <width>261</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Noto Sans Mono CJK KR</family>
+               <pointsize>20</pointsize>
+               <weight>50</weight>
+               <italic>true</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Current Factor Level : </string>
+             </property>
+            </widget>
+            <widget class="QSpinBox" name="spinBox">
+             <property name="geometry">
+              <rect>
+               <x>600</x>
+               <y>440</y>
+               <width>91</width>
+               <height>51</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Noto Sans Mono CJK KR</family>
+               <pointsize>20</pointsize>
+               <weight>50</weight>
+               <italic>true</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+            </widget>
+            <widget class="QLCDNumber" name="lcdNumber_5">
+             <property name="geometry">
+              <rect>
+               <x>270</x>
+               <y>440</y>
+               <width>101</width>
+               <height>51</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Noto Sans Mono CJK KR</family>
+               <pointsize>20</pointsize>
+               <weight>50</weight>
+               <italic>true</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_8">
+             <property name="geometry">
+              <rect>
+               <x>380</x>
+               <y>450</y>
+               <width>221</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Noto Sans Mono CJK KR</family>
+               <pointsize>20</pointsize>
+               <weight>50</weight>
+               <italic>true</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>New Factor Level : </string>
+             </property>
+            </widget>
+           </widget>
+          </widget>
+         </widget>
+         <widget class="QWidget" name="tab_4">
+          <attribute name="title">
+           <string>Responsabilities</string>
+          </attribute>
+          <widget class="QTabWidget" name="tabWidget_4">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>0</y>
+             <width>811</width>
+             <height>601</height>
+            </rect>
+           </property>
+           <property name="tabShape">
+            <enum>QTabWidget::Triangular</enum>
+           </property>
+           <property name="currentIndex">
+            <number>2</number>
+           </property>
+           <widget class="QWidget" name="tab_10">
+            <attribute name="title">
+             <string>Financial Accountability</string>
+            </attribute>
+            <widget class="QGroupBox" name="groupBox_11">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>10</y>
+               <width>671</width>
+               <height>151</height>
+              </rect>
+             </property>
+             <property name="title">
+              <string>Factor Description</string>
+             </property>
+             <widget class="QTextBrowser" name="textBrowser_5">
+              <property name="geometry">
+               <rect>
+                <x>5</x>
+                <y>30</y>
+                <width>651</width>
+                <height>111</height>
+               </rect>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QGroupBox" name="groupBox_12">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>190</y>
+               <width>681</width>
+               <height>231</height>
+              </rect>
+             </property>
+             <property name="title">
+              <string>Level Description</string>
+             </property>
+             <widget class="QListView" name="listView_5">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>20</y>
+                <width>651</width>
+                <height>192</height>
+               </rect>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QLabel" name="label_49">
+             <property name="geometry">
+              <rect>
+               <x>30</x>
+               <y>500</y>
+               <width>261</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Noto Sans Mono CJK KR</family>
+               <pointsize>20</pointsize>
+               <weight>50</weight>
+               <italic>true</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Current Factor Level : </string>
+             </property>
+            </widget>
+            <widget class="QLCDNumber" name="lcdNumber_9">
+             <property name="geometry">
+              <rect>
+               <x>290</x>
+               <y>490</y>
+               <width>101</width>
+               <height>51</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Noto Sans Mono CJK KR</family>
+               <pointsize>20</pointsize>
+               <weight>50</weight>
+               <italic>true</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_50">
+             <property name="geometry">
+              <rect>
+               <x>400</x>
+               <y>500</y>
+               <width>221</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Noto Sans Mono CJK KR</family>
+               <pointsize>20</pointsize>
+               <weight>50</weight>
+               <italic>true</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>New Factor Level : </string>
+             </property>
+            </widget>
+            <widget class="QSpinBox" name="spinBox_11">
+             <property name="geometry">
+              <rect>
+               <x>620</x>
+               <y>490</y>
+               <width>91</width>
+               <height>51</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Noto Sans Mono CJK KR</family>
+               <pointsize>20</pointsize>
+               <weight>50</weight>
+               <italic>true</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QWidget" name="tab_11">
+            <attribute name="title">
+             <string>HR Responsabilities</string>
+            </attribute>
+            <widget class="QGroupBox" name="groupBox_13">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>10</y>
+               <width>671</width>
+               <height>151</height>
+              </rect>
+             </property>
+             <property name="title">
+              <string>Factor Description</string>
+             </property>
+             <widget class="QTextBrowser" name="textBrowser_6">
+              <property name="geometry">
+               <rect>
+                <x>5</x>
+                <y>30</y>
+                <width>651</width>
+                <height>111</height>
+               </rect>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QGroupBox" name="groupBox_14">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>190</y>
+               <width>681</width>
+               <height>231</height>
+              </rect>
+             </property>
+             <property name="title">
+              <string>Level Description</string>
+             </property>
+             <widget class="QListView" name="listView_6">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>20</y>
+                <width>651</width>
+                <height>192</height>
+               </rect>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QLabel" name="label_51">
+             <property name="geometry">
+              <rect>
+               <x>50</x>
+               <y>500</y>
+               <width>261</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Noto Sans Mono CJK KR</family>
+               <pointsize>20</pointsize>
+               <weight>50</weight>
+               <italic>true</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Current Factor Level : </string>
+             </property>
+            </widget>
+            <widget class="QLCDNumber" name="lcdNumber_10">
+             <property name="geometry">
+              <rect>
+               <x>310</x>
+               <y>490</y>
+               <width>101</width>
+               <height>51</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Noto Sans Mono CJK KR</family>
+               <pointsize>20</pointsize>
+               <weight>50</weight>
+               <italic>true</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_52">
+             <property name="geometry">
+              <rect>
+               <x>420</x>
+               <y>500</y>
+               <width>221</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Noto Sans Mono CJK KR</family>
+               <pointsize>20</pointsize>
+               <weight>50</weight>
+               <italic>true</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>New Factor Level : </string>
+             </property>
+            </widget>
+            <widget class="QSpinBox" name="spinBox_12">
+             <property name="geometry">
+              <rect>
+               <x>640</x>
+               <y>490</y>
+               <width>91</width>
+               <height>51</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Noto Sans Mono CJK KR</family>
+               <pointsize>20</pointsize>
+               <weight>50</weight>
+               <italic>true</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QWidget" name="tab_16">
+            <attribute name="title">
+             <string>Communication</string>
+            </attribute>
+            <widget class="QGroupBox" name="groupBox_15">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>10</y>
+               <width>671</width>
+               <height>151</height>
+              </rect>
+             </property>
+             <property name="title">
+              <string>Factor Description</string>
+             </property>
+             <widget class="QTextBrowser" name="textBrowser_7">
+              <property name="geometry">
+               <rect>
+                <x>5</x>
+                <y>30</y>
+                <width>651</width>
+                <height>111</height>
+               </rect>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QGroupBox" name="groupBox_16">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>190</y>
+               <width>681</width>
+               <height>231</height>
+              </rect>
+             </property>
+             <property name="title">
+              <string>Level Description</string>
+             </property>
+             <widget class="QListView" name="listView_7">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>20</y>
+                <width>651</width>
+                <height>192</height>
+               </rect>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QLabel" name="label_53">
+             <property name="geometry">
+              <rect>
+               <x>50</x>
+               <y>500</y>
+               <width>261</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Noto Sans Mono CJK KR</family>
+               <pointsize>20</pointsize>
+               <weight>50</weight>
+               <italic>true</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Current Factor Level : </string>
+             </property>
+            </widget>
+            <widget class="QLCDNumber" name="lcdNumber_11">
+             <property name="geometry">
+              <rect>
+               <x>310</x>
+               <y>490</y>
+               <width>101</width>
+               <height>51</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Noto Sans Mono CJK KR</family>
+               <pointsize>20</pointsize>
+               <weight>50</weight>
+               <italic>true</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_54">
+             <property name="geometry">
+              <rect>
+               <x>420</x>
+               <y>500</y>
+               <width>221</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Noto Sans Mono CJK KR</family>
+               <pointsize>20</pointsize>
+               <weight>50</weight>
+               <italic>true</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>New Factor Level : </string>
+             </property>
+            </widget>
+            <widget class="QSpinBox" name="spinBox_13">
+             <property name="geometry">
+              <rect>
+               <x>640</x>
+               <y>490</y>
+               <width>91</width>
+               <height>51</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Noto Sans Mono CJK KR</family>
+               <pointsize>20</pointsize>
+               <weight>50</weight>
+               <italic>true</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+            </widget>
+           </widget>
+          </widget>
+         </widget>
+         <widget class="QWidget" name="tab_7">
+          <attribute name="title">
+           <string>Efforts</string>
+          </attribute>
+          <widget class="QTabWidget" name="tabWidget_5">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>0</y>
+             <width>811</width>
+             <height>601</height>
+            </rect>
+           </property>
+           <property name="tabShape">
+            <enum>QTabWidget::Triangular</enum>
+           </property>
+           <property name="currentIndex">
+            <number>1</number>
+           </property>
+           <widget class="QWidget" name="tab_12">
+            <attribute name="title">
+             <string>Physical Efforts</string>
+            </attribute>
+            <widget class="QGroupBox" name="groupBox_17">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>10</y>
+               <width>671</width>
+               <height>151</height>
+              </rect>
+             </property>
+             <property name="title">
+              <string>Factor Description</string>
+             </property>
+             <widget class="QTextBrowser" name="textBrowser_8">
+              <property name="geometry">
+               <rect>
+                <x>5</x>
+                <y>30</y>
+                <width>651</width>
+                <height>111</height>
+               </rect>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QGroupBox" name="groupBox_18">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>190</y>
+               <width>681</width>
+               <height>231</height>
+              </rect>
+             </property>
+             <property name="title">
+              <string>Level Description</string>
+             </property>
+             <widget class="QListView" name="listView_8">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>20</y>
+                <width>651</width>
+                <height>192</height>
+               </rect>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QLabel" name="label_55">
+             <property name="geometry">
+              <rect>
+               <x>50</x>
+               <y>480</y>
+               <width>261</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Noto Sans Mono CJK KR</family>
+               <pointsize>20</pointsize>
+               <weight>50</weight>
+               <italic>true</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Current Factor Level : </string>
+             </property>
+            </widget>
+            <widget class="QLCDNumber" name="lcdNumber_12">
+             <property name="geometry">
+              <rect>
+               <x>310</x>
+               <y>470</y>
+               <width>101</width>
+               <height>51</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Noto Sans Mono CJK KR</family>
+               <pointsize>20</pointsize>
+               <weight>50</weight>
+               <italic>true</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_11">
+             <property name="geometry">
+              <rect>
+               <x>420</x>
+               <y>480</y>
+               <width>221</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Noto Sans Mono CJK KR</family>
+               <pointsize>20</pointsize>
+               <weight>50</weight>
+               <italic>true</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>New Factor Level : </string>
+             </property>
+            </widget>
+            <widget class="QSpinBox" name="spinBox_7">
+             <property name="geometry">
+              <rect>
+               <x>640</x>
+               <y>470</y>
+               <width>91</width>
+               <height>51</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Noto Sans Mono CJK KR</family>
+               <pointsize>20</pointsize>
+               <weight>50</weight>
+               <italic>true</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QWidget" name="tab_13">
+            <attribute name="title">
+             <string>Intellectual Efforts</string>
+            </attribute>
+            <widget class="QGroupBox" name="groupBox_19">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>10</y>
+               <width>671</width>
+               <height>151</height>
+              </rect>
+             </property>
+             <property name="title">
+              <string>Factor Description</string>
+             </property>
+             <widget class="QTextBrowser" name="textBrowser_9">
+              <property name="geometry">
+               <rect>
+                <x>5</x>
+                <y>30</y>
+                <width>651</width>
+                <height>111</height>
+               </rect>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QGroupBox" name="groupBox_20">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>190</y>
+               <width>681</width>
+               <height>231</height>
+              </rect>
+             </property>
+             <property name="title">
+              <string>Level Description</string>
+             </property>
+             <widget class="QListView" name="listView_9">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>20</y>
+                <width>651</width>
+                <height>192</height>
+               </rect>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QLabel" name="label_56">
+             <property name="geometry">
+              <rect>
+               <x>50</x>
+               <y>480</y>
+               <width>261</width>
+               <height>41</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Noto Sans Mono CJK KR</family>
+               <pointsize>20</pointsize>
+               <weight>50</weight>
+               <italic>true</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Current Factor Level : </string>
+             </property>
+            </widget>
+            <widget class="QLCDNumber" name="lcdNumber_13">
+             <property name="geometry">
+              <rect>
+               <x>310</x>
+               <y>470</y>
+               <width>101</width>
+               <height>51</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Noto Sans Mono CJK KR</family>
+               <pointsize>20</pointsize>
+               <weight>50</weight>
+               <italic>true</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_12">
+             <property name="geometry">
+              <rect>
+               <x>420</x>
+               <y>480</y>
+               <width>221</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Noto Sans Mono CJK KR</family>
+               <pointsize>20</pointsize>
+               <weight>50</weight>
+               <italic>true</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>New Factor Level : </string>
+             </property>
+            </widget>
+            <widget class="QSpinBox" name="spinBox_8">
+             <property name="geometry">
+              <rect>
+               <x>640</x>
+               <y>470</y>
+               <width>91</width>
+               <height>51</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Noto Sans Mono CJK KR</family>
+               <pointsize>20</pointsize>
+               <weight>50</weight>
+               <italic>true</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+            </widget>
+           </widget>
+          </widget>
+         </widget>
+         <widget class="QWidget" name="tab_6">
+          <attribute name="title">
+           <string>Work Environnement</string>
+          </attribute>
+          <widget class="QTabWidget" name="tabWidget_6">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>0</y>
+             <width>811</width>
+             <height>601</height>
+            </rect>
+           </property>
+           <property name="tabShape">
+            <enum>QTabWidget::Triangular</enum>
+           </property>
+           <property name="currentIndex">
+            <number>1</number>
+           </property>
+           <widget class="QWidget" name="tab_14">
+            <attribute name="title">
+             <string>Physical Environnement</string>
+            </attribute>
+            <widget class="QGroupBox" name="groupBox_21">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>10</y>
+               <width>671</width>
+               <height>151</height>
+              </rect>
+             </property>
+             <property name="title">
+              <string>Factor Description</string>
+             </property>
+             <widget class="QTextBrowser" name="textBrowser_10">
+              <property name="geometry">
+               <rect>
+                <x>5</x>
+                <y>30</y>
+                <width>651</width>
+                <height>111</height>
+               </rect>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QGroupBox" name="groupBox_22">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>190</y>
+               <width>681</width>
+               <height>231</height>
+              </rect>
+             </property>
+             <property name="title">
+              <string>Level Description</string>
+             </property>
+             <widget class="QListView" name="listView_10">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>20</y>
+                <width>651</width>
+                <height>192</height>
+               </rect>
+              </property>
+             </widget>
+            </widget>
+           </widget>
+           <widget class="QWidget" name="tab_15">
+            <attribute name="title">
+             <string>Psychological and Social Environnement</string>
+            </attribute>
+            <widget class="QGroupBox" name="groupBox_23">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>10</y>
+               <width>671</width>
+               <height>151</height>
+              </rect>
+             </property>
+             <property name="title">
+              <string>Factor Description</string>
+             </property>
+             <widget class="QTextEdit" name="f4s2TextDescription">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>20</y>
+                <width>661</width>
+                <height>121</height>
+               </rect>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Sunken</enum>
+              </property>
+              <property name="autoFormatting">
+               <set>QTextEdit::AutoAll</set>
+              </property>
+              <property name="documentTitle">
+               <string/>
+              </property>
+              <property name="readOnly">
+               <bool>true</bool>
+              </property>
+              <property name="placeholderText">
+               <string>Factor Description</string>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QSpinBox" name="spinBox_10">
+             <property name="geometry">
+              <rect>
+               <x>515</x>
+               <y>440</y>
+               <width>91</width>
+               <height>51</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Noto Sans Mono CJK KR</family>
+               <pointsize>20</pointsize>
+               <weight>50</weight>
+               <italic>true</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_14">
+             <property name="geometry">
+              <rect>
+               <x>350</x>
+               <y>450</y>
+               <width>161</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Noto Sans Mono CJK KR</family>
+               <pointsize>20</pointsize>
+               <weight>50</weight>
+               <italic>true</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Factor Level</string>
+             </property>
+            </widget>
+            <widget class="QGroupBox" name="groupBox_24">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>190</y>
+               <width>681</width>
+               <height>231</height>
+              </rect>
+             </property>
+             <property name="title">
+              <string>Level Description</string>
+             </property>
+             <widget class="QTextEdit" name="textEdit_2">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>30</y>
+                <width>661</width>
+                <height>191</height>
+               </rect>
+              </property>
+              <property name="documentTitle">
+               <string>texte</string>
+              </property>
+             </widget>
+            </widget>
+           </widget>
+          </widget>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="evaluationResult">
+        <property name="geometry">
+         <rect>
+          <x>670</x>
+          <y>10</y>
+          <width>481</width>
+          <height>101</height>
+         </rect>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="title">
+         <string>Job Evaluation Result</string>
+        </property>
+        <property name="flat">
+         <bool>false</bool>
+        </property>
+        <widget class="QLabel" name="label_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>30</y>
+           <width>191</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Job Name</string>
+         </property>
+        </widget>
+        <widget class="QLCDNumber" name="lcdNumber">
+         <property name="geometry">
+          <rect>
+           <x>273</x>
+           <y>25</y>
+           <width>91</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Noto Sans Mono CJK KR</family>
+           <pointsize>10</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="value" stdset="0">
+          <double>0.000000000000000</double>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_3">
+         <property name="geometry">
+          <rect>
+           <x>190</x>
+           <y>30</y>
+           <width>81</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Total Points : </string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_4">
+         <property name="geometry">
+          <rect>
+           <x>200</x>
+           <y>70</y>
+           <width>71</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Job Level : </string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::PlainText</enum>
+         </property>
+        </widget>
+        <widget class="QLCDNumber" name="lcdNumber_2">
+         <property name="geometry">
+          <rect>
+           <x>273</x>
+           <y>65</y>
+           <width>91</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Noto Sans Mono CJK KR</family>
+           <pointsize>9</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="verticalLayoutWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>520</x>
+          <y>30</y>
+          <width>141</width>
+          <height>85</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QPushButton" name="pushButtonFetchJE">
+           <property name="text">
+            <string>Fetch Job
+Evaluation</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButtonEvaluate">
+           <property name="text">
+            <string>Evaluate</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_5">
+       <attribute name="icon">
+        <iconset>
+         <normaloff>3442056-head-hunting/png/050-performance.png</normaloff>3442056-head-hunting/png/050-performance.png</iconset>
+       </attribute>
+       <attribute name="title">
+        <string>Factors, Points and Weighting</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="tab_18">
+       <attribute name="icon">
+        <iconset>
+         <normaloff>3190606-finance/png/044-bar chart.png</normaloff>3190606-finance/png/044-bar chart.png</iconset>
+       </attribute>
+       <attribute name="title">
+        <string>Benchmarking and Compensation Analysis</string>
+       </attribute>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
